@@ -17,17 +17,17 @@ Since PDB files encode two molecules (the main protein and the ligand), and the 
 Using the ELE trick,  the clustering algorithms have far less data to manage and therefore are much faster.
 
 ## Steps
-Encoding using the 3-most dintant atom in the protein (enogh information to describe protein 3D location and rotation):
+Encoding using the 3-most dintant atom in the protein (enough information to describe protein 3D location and rotation):
 
 ![Encoding plot](imgs/encoding_plot.png)
 
 ![Encoding](imgs/encoder.gif)
 
-Working with this reduced information of the proteins we can compute clusters more efficiently:
+Working with this reduced information of the proteins we can compute clusters more efficiently and much faster (visualization of the neighbours of a cluster and its Representative centroid):
 
 ![Encoding](imgs/cluster_cloud.gif)
 
-Once we validated the correct computation of the clusters, we visualize the Ligand Cluster Centroid Representants:
+Once we validated the correct computation of the clusters, we visualize the Ligand Cluster Centroid Representative:
 
 ![cluster centroids](imgs/original.gif)
 
